@@ -24,7 +24,7 @@ These scripts are self-contained and can be run independently to train the quant
 2. **Environment Variables**: Create a `.env` file in the project root with:
    ```
    GEMINI_API_KEY=your_api_key_here
-   GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent
+   GEMINI_API_URL=your_url_here
    ```
    Or set these as environment variables.
 
@@ -39,7 +39,7 @@ Run the scripts in this order:
 
 1. **Extract frames from videos**:
    ```bash
-   python scripts/extract_frames.py --interval 10
+   python scripts/extract_frames.py --interval 15
    ```
 
 2. **Extract features from images** (requires Gemini API):
